@@ -34,3 +34,18 @@ header > p {
 a[rel="external"] {
   color: purple;
 }
+#experience section:first-of-type {
+border-bottom: 2px dashed #ccc;
+}
+main > section {
+    margin-bottom: 3rem;
+}
+main > section > h2 > p > strong {
+    color: purple;
+}
+li:nth-of-type(even) {
+    color: purple;
+}
+dl > div:last-of-type {
+    background-color: #ccc;
+}
